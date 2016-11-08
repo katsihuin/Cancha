@@ -1,0 +1,69 @@
+/* Inserta tu CSS aqui */
+
+.container {
+	background-color: lightgreen;
+	position: absolute;
+	width: 900px;
+	height: 450px;
+	z-index: -5;
+}
+
+.outside, .box1, .box2, .circle {
+	background-color: lightgreen;
+	border: 1px solid white; 
+}
+
+.outside {
+
+	width: 850px;
+	height:400px;
+	position: fixed;	
+	top:30px;
+    left:30px;
+    right:30px;
+    bottom: 30px;
+    z-index: -2px;  
+}
+
+.box1, .box2 {
+	width: 100px;
+	height: 200px;
+}
+
+.box1 {
+	margin-top: 100px;
+}
+
+.box2 {
+	margin-right: 0;
+	margin-top:-200px;
+	float: right;
+}
+
+.circle {
+	border-radius: 100px;
+	top: vertical;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -50px 0 0 -50px;
+	z-index: -1;
+}
+
+#bola1{
+	position: absolute;
+	left: 113px;
+	top: 130px;
+}
+#bola2{
+	position: absolute;
+	left:450px;
+	top: 120px;
+}
+#bola3{
+    position: absolute;
+    right:135px;
+    bottom: 130px; 
+}
